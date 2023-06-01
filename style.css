@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, #33ccff 0%, #ffffff 100%);
+}
+
+
+.flex-row{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-col{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+   
+}
+.main-box{
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+    border-radius: 20px;
+}
+.input_field{
+    margin-top: 10px;
+}
+
+.input_field h3 input{
+    margin-left:20px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+}
+
+.input_field h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
