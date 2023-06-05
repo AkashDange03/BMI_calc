@@ -19,7 +19,7 @@ $("button").click(function (e) {
     }
     else if( BMI < 24.9){
         $(".input_field").append(`<h1></h1>`);
-        $(".input_field h1").text(`you are overweight ${BMI}  `).css("color","red");
+        $(".input_field h1").text(`you are overweight ${BMI} `).css("color","red");
     }
     else{
         alert("error");
